@@ -8,13 +8,13 @@
     background-color: blue;
 }
 
-.element{
+#element{
     background-color: red;
     width: 35%;
     height: 20%;
 }
 
-.element p{
+#element p{
     text-align: center;
 }
 
