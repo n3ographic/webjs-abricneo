@@ -4,7 +4,7 @@ console.log(myElement);
 
 /*AJOUT DE DIV*/
 
-
+/*Ajout de div avec des éléments à l'interieur*/
 for (i = 0; i < 5; i++){
     const ajoutDiv = document.createElement('div');
     ajoutDiv.setAttribute('id', 'element')
@@ -16,18 +16,23 @@ for (i = 0; i < 5; i++){
     ajoutDiv.innerHTML = ("<p>Montpellier</p>");
 }
 
-
+/*Comptage clique bouton*/
 const boutonClick = document.getElementById('boutonAdd')
+
 let comptageClick = 0
+
  boutonClick.addEventListener('click', function(){
+
     comptageClick = comptageClick+1;
-    console.log("tu as cliqué " + comptageClick)
-    
-    //console.log("click")
-    /*for(let click = 0; click <  1; click++ ){
-        console.log("tu as cliqué" + [click+1])
-    }*/
+
+    console.log("tu as cliqué " + comptageClick);
  });
+
+
+ localStorage.setItem("prenom", "nom")
+
+
+
 
 
 
