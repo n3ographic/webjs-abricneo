@@ -1,23 +1,30 @@
 #conteneur{
     width: 100%;
-    height: 500px;
+    height: max-content;
     display: flex;
     justify-content: space-around;
     flex-direction: column-reverse;
     align-items:center ;
     background-color: blue;
+    padding: 5px 0px
 }
 
 #element{
     background-color: red;
     width: 35%;
     height: 20%;
+    margin: 10px;
 }
 
 #element p{
     text-align: center;
 }
 
+button{
+    padding: 10px 40px;
+    background-color: green;
+    border: none;
+}
 
 
 
