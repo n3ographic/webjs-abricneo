@@ -29,10 +29,24 @@ let comptageClick = 0
  });
 
 
- localStorage.setItem("prenom", "nom")
+ localStorage.setItem("prenom", "neo")
 
-let
+ localStorage.getItem("prenom")
 
+
+ let objJson ={
+    prenom: "dany",
+    nom: "abric",
+    age : 30
+ }
+
+ let objLinea = JSON.stringify(objJson);
+ localStorage.setItem("obj",objLinea);
+
+ objLinea = localStorage.getItem("obj");
+ objJson = JSON.parse(objLinea);
+
+ alert(objJson.age)
 
 
 
